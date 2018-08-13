@@ -11,7 +11,7 @@ class Skills extends Component {
       <div className="skills-section">
         <div className="row">
                 <div className="col-md-12 col-sm-12">
-                  <h2>What I do</h2>
+                  <h2>WHAT I DO</h2>
                 </div>
         </div>
         <div className="row">

@@ -12,7 +12,7 @@ class About extends Component {
         <div className="col-md-12 col-sm-12">
 
 
-            <h2>About Me</h2>
+            <h2>ABOUT ME</h2>
             <hr/>
             <p>
             Currently I am a software engineer programming mainly in Java using the Spring framwork
@@ -41,7 +41,7 @@ class About extends Component {
           <div className="col-md-6 col-sm-12 wow fadeInUp">
           <img className="profile-img" src={'https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/64/s300/codeup-logo.png'} />
           <img className="profile-img" src={'https://pbs.twimg.com/profile_images/601081984534863873/MRiPrI0x_400x400.png'} />
-          
+          <img className="profile-img" src={'https://yt3.ggpht.com/a-/ACSszfHMpLR3AuqdQgZY5OZY5NrJ1rdBT_NOqvqm4w=s900-mo-c-c0xffffffff-rj-k-no'} />
           </div>
 
       </div>

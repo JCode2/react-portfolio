@@ -5,8 +5,24 @@ body {
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
   list-style: none;
-  /* background-color: whitesmoke; */
   background-image: url('funky-lines.png');
+}
+
+.navbar{
+  background-color: rgba(0, 173, 255, 1);
+  padding: 0.5%;
+}
+
+.navbar >a{
+  color:white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:white !important;
+}
+
+.navbar-collapse{
+  justify-content: center;
 }
 
 .Jumbotron-fluid{
