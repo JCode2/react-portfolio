@@ -11,15 +11,20 @@ class Footer extends Component {
         <footer className="footer navbar">
 
 
-              <div className='col-md-4 col-sm-12'>
+              <div className='col-md-6 col-sm-12 contactform'>
               <h4>CONTACT ME</h4>
               <p>PHONE</p>
               <h2>(650) ***-****</h2>
+              <a href={"https://bit.ly/2oAVDxz"}><i class="fab fa-linkedin-in fa-3x"></i></a>
+              &nbsp;
+              &nbsp;
+              &nbsp;
+              <a href={"https://github.com/JCode2"}><i class="fab fa-github fa-3x"></i></a>
+              <p className="copyright">&#169; {new Date().getFullYear()}</p>
               </div>
               <div className='col-md-6 col-sm-12'>
               {/*<h2>email[@]email.com</h2>*/}
               <ContactForm/>
-              <p className="copyright">&#169; {new Date().getFullYear()}</p>
               </div>
 
 

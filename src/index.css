@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
+  list-style: none;
 }
 
 .Jumbotron-fluid{
@@ -41,8 +42,17 @@ body {
 
 }
 
+.contactform{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .contact-button{
     margin-top: 1%;
+}
+
+.form-control{
+  margin-bottom: 2%;
 }
 
 footer{
@@ -51,6 +61,7 @@ footer{
   padding-top: 1%;
   background-color: whitesmoke;
   position: fixed;
+  height: 50vh;
   /* color:white; */
   /* justify-content: center; */
 }
