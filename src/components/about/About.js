@@ -8,7 +8,7 @@ class About extends Component {
   }
   render(){
     return(
-      <div className="row about-section">
+      <div className="row" id="about-section">
         <div className="col-md-12 col-sm-12">
 
 

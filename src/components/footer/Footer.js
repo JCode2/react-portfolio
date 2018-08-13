@@ -8,7 +8,7 @@ class Footer extends Component {
   render(){
     return(
       <div>
-        <footer className="footer navbar">
+        <footer className="footer navbar" id="contact-section">
 
 
               <div className='col-md-6 col-sm-12 contactform'>

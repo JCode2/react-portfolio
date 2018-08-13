@@ -8,7 +8,7 @@ class Skills extends Component {
   }
   render(){
     return(
-      <div className="skills-section">
+      <div id="skills-section">
         <div className="row">
                 <div className="col-md-12 col-sm-12">
                   <h2>WHAT I DO</h2>

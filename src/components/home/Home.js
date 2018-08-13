@@ -4,8 +4,6 @@ import Skills from '../skills/Skills';
 import Footer from '../footer/Footer';
 import Projects from '../projects/Projects';
 import Nav from '../nav/Nav';
-// import illusion from 'illusion.png';
-// import { Jumbotron, Button } from 'reactstrap';
 
 class Home extends Component {
   constructor(){
@@ -13,7 +11,7 @@ class Home extends Component {
   }
 render(){
   return(
-    <div>
+    <div id="scrollToTop">
     <Nav/>
       <div className='Jumbotron-fluid'>
         <h3 className="display-2 animated zoomInDown">F I E R R O</h3>

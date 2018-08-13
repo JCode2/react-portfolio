@@ -41,7 +41,7 @@ body {
   padding-top: 25%;
 }
 
-.about-section{
+#about-section{
   height:100vh;
   background-color: white;
   padding: 2%;
@@ -58,14 +58,14 @@ body {
   margin-bottom: 3%;
 }
 
-.skills-section{
+#skills-section{
   height: 100vh;
   background-color: white;
   padding: 2%;
   margin: 2%;
 }
 
-.projects-section{
+#projects-section{
   height:100vh;
   background-color: white;
   padding: 2%;
