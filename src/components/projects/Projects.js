@@ -1,16 +1,17 @@
 import React, {Component} from 'react';
-// import coolBuilding from 'images/cool-buildings.jpg';
+import WOW from 'wow.js';
 
 class Projects extends Component{
-  constructor(){
-    super();
+  componentDidMount(){
+    const wow = new WOW();
+    wow.sync();
   }
   render(){
     return(
       <div className="row projects-section">
         <h1>Some personal work</h1>
     <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 col-sm-12 wow fadeInLeft">
               <div className="card" styles={"width: 2rem;"}>
                 <div className="card-body">
                   <a href={"https://jcode2.github.io/wiki-viewer/"}><h5 className="card-title">Wiki Viewer</h5></a>
@@ -21,7 +22,7 @@ class Projects extends Component{
               </div>
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-6 col-sm-12 wow fadeInRight">
               <div className="card" styles={"width: 2rem;"}>
                 <div className="card-body">
                   <h5 className="card-title">Weather Map API</h5>
@@ -33,7 +34,7 @@ class Projects extends Component{
     </div>
 
     <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 col-sm-12 wow fadeInLeft">
               <div className="card" styles={"width: 2rem;"}>
                 <div className="card-body">
                   <a href={"https://jcode2.github.io/Simple-Simon/"}><h5 className="card-title">Simple Simon</h5></a>
@@ -43,7 +44,7 @@ class Projects extends Component{
               </div>
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-6 col-sm-12 wow fadeInRight">
               <div className="card" styles={"width: 2rem;"}>
                 <div className="card-body">
                   <a href={"https://codepen.io/jcode2/full/VXexyB/"}><h5 className="card-title">Artist Viewer</h5></a>
