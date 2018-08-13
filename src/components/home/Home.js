@@ -14,7 +14,7 @@ render(){
   return(
     <div>
       <div className='Jumbotron-fluid'>
-        <h3 className="display-2">F I E R R O</h3>
+        <h3 className="display-2 animated zoomInDown">F I E R R O</h3>
       </div>
       <div className="container">
           <About/>

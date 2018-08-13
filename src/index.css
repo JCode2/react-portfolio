@@ -5,6 +5,8 @@ body {
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
   list-style: none;
+  /* background-color: whitesmoke; */
+  background-image: url('funky-lines.png');
 }
 
 .Jumbotron-fluid{
@@ -23,8 +25,15 @@ body {
   padding-top: 25%;
 }
 
+.about-section{
+  height:100vh;
+  background-color: white;
+  padding: 2%;
+  margin: 2%;
+}
+
 .profile-img{
-  width: 75%;
+  width: 25%;
   border-radius: 2%;
 }
 
@@ -35,11 +44,16 @@ body {
 
 .skills-section{
   height: 100vh;
+  background-color: white;
+  padding: 2%;
+  margin: 2%;
 }
 
 .projects-section{
   height:100vh;
-
+  background-color: white;
+  padding: 2%;
+  margin: 2%;
 }
 
 .contactform{
@@ -59,11 +73,20 @@ footer{
   display: flex;
   padding-bottom: 1%;
   padding-top: 1%;
-  background-color: whitesmoke;
+  color:whitesmoke;
+  background-color: rgba(0, 173, 255, 1);
   position: fixed;
   height: 50vh;
   /* color:white; */
   /* justify-content: center; */
+}
+
+.fa-github, .fa-linkedin-in{
+  color: white;
+}
+
+.fa-certificate{
+  color: gold;
 }
 
 .footerList{
