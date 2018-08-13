@@ -2,7 +2,9 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://JCode2.github.io/",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "material-ui": "^0.20.1",
     "react": "^16.4.1",
     "react-anchor-link-smooth-scroll": "^1.0.11",
@@ -16,6 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build"
   }
 }
