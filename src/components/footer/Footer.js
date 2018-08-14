@@ -14,7 +14,7 @@ class Footer extends Component {
               <div className='col-md-6 col-sm-12 contactform'>
               <h4>CONTACT ME</h4>
               <p>PHONE</p>
-              <h2>(650) ***-****</h2>
+              <h2>(650) 534-2840</h2>
               <a href={"https://bit.ly/2oAVDxz"}><i class="fab fa-linkedin-in fa-3x"></i></a>
               &nbsp;
               &nbsp;
