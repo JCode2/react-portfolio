@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  
+  "homepage": "https://jcode2.github.io/react-portfolio/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "material-ui": "^0.20.1",
