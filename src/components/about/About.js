@@ -9,7 +9,7 @@ class About extends Component {
   render(){
     return(
       <div className="row" id="about-section">
-        <div className="col-md-12 col-sm-12">
+        <div className="col-md-12 col-sm-12 justifyText">
 
 
             <h2>ABOUT ME</h2>

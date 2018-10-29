@@ -18,7 +18,7 @@ class Nav extends Component{
             <AnchorLink class="nav-item nav-link" offset={() => 100} href="#about-section"><h4>about</h4></AnchorLink>
             <AnchorLink class="nav-item nav-link" offset={() => 100} href="#skills-section"><h4>skills</h4></AnchorLink>
             <AnchorLink class="nav-item nav-link" offset={() => 100} href="#projects-section"><h4>projects</h4></AnchorLink>
-            <AnchorLink class="nav-item nav-link" offset={() => 100} href="#contact-section"><h4>contact</h4></AnchorLink>
+            <AnchorLink class="nav-item nav-link" offset={() => 30} href="#contact-section"><h4>contact</h4></AnchorLink>
           </div>
         </div>
       </nav>

@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+@media only screen and (max-width: 425px) {
+    .display-2 {
+        font-size: 2.5rem;
+        padding-top: 10%;
+    }
+    .contactform{
+      margin-top: 5%;
+    }
+}
+
+@media only screen and (min-width:1025px) {
+  #about-section{
+    height:100vh;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,20 +25,21 @@ body {
 }
 
 .navbar{
-  background-color: rgba(0, 173, 255, 1);
+  background-color: whitesmoke/*rgba(0, 173, 255, 1)*/;
   padding: 0.5%;
 }
 
 .navbar >a{
-  color:white !important;
+  color:#343a40 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color:white !important;
+  color:#343a40 !important;
 }
 
 .navbar-collapse{
-  justify-content: center;
+  justify-content:flex-end;
+  padding: 0.5%;
 }
 
 .Jumbotron-fluid{
@@ -38,14 +55,18 @@ body {
 .display-2{
   display: flex;
   justify-content: center;
-  padding-top: 25%;
+  padding-top: 15%;
 }
 
 #about-section{
-  height:100vh;
   background-color: white;
   padding: 2%;
   margin: 2%;
+  font-size: 1.15rem;
+}
+
+.justifyText{
+  text-align: justify;
 }
 
 .profile-img{
@@ -59,14 +80,12 @@ body {
 }
 
 #skills-section{
-  height: 100vh;
   background-color: white;
   padding: 2%;
   margin: 2%;
 }
 
 #projects-section{
-  height:100vh;
   background-color: white;
   padding: 2%;
   margin: 2%;
@@ -78,7 +97,7 @@ body {
 }
 
 .contact-button{
-    margin-top: 1%;
+  margin-top: 1%;
 }
 
 .form-control{
@@ -89,16 +108,13 @@ footer{
   display: flex;
   padding-bottom: 1%;
   padding-top: 1%;
-  color:whitesmoke;
-  background-color: rgba(0, 173, 255, 1);
+  color:#343a40 /*whitesmoke*/;
   position: fixed;
-  height: 50vh;
-  /* color:white; */
-  /* justify-content: center; */
+  height: 100vh;
 }
 
 .fa-github, .fa-linkedin-in{
-  color: white;
+  color: #343a40 /*white*/;
 }
 
 .fa-certificate{
