@@ -24,11 +24,12 @@ body {
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
   list-style: none;
-  background-image: url('funky-lines.png');
+  /* background-image: url('funky-lines.png'); */
 }
 
 .navbar{
-  background-color: whitesmoke/*rgba(0, 173, 255, 1)*/;
+  /* background-color: whitesmoke/*rgba(0, 173, 255, 1)*/;
+  background: linear-gradient(to right, rgb(170, 255, 169), rgb(17, 255, 189));
   padding: 0.5%;
 }
 
@@ -46,10 +47,12 @@ body {
 }
 
 .Jumbotron-fluid{
-  background-image: url('https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-color: whitesmoke;
+  /* background-image: url('https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+  background: linear-gradient(to right, rgb(170, 255, 169), rgb(17, 255, 189));
   background-position: center;
   background-repeat: no-repeat;
+  transform: skewY(-8deg);
+  transform-origin: top left;
   height: 100vh;
   background-size: cover;
   color:whitesmoke;
@@ -58,7 +61,9 @@ body {
 .display-2{
   display: flex;
   justify-content: center;
-  padding-top: 15%;
+  padding-top: 30%;
+  transform: skewY(8deg);
+  transform-origin: top right;
 }
 
 #about-section{

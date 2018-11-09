@@ -2,9 +2,6 @@ import React, {Component} from 'react';
 import ContactForm from '../contactform/ContactForm';
 
 class Footer extends Component {
-  constructor(){
-    super();
-  }
   render(){
     return(
       <div>

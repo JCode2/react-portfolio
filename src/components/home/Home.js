@@ -6,9 +6,6 @@ import Projects from '../projects/Projects';
 import Nav from '../nav/Nav';
 
 class Home extends Component {
-  constructor(){
-    super();
-  }
 render(){
   return(
     <div id="scrollToTop">

@@ -30,7 +30,7 @@ class Projects extends Component{
             <div className="col-md-6 col-sm-12 wow fadeInRight">
               <div className="card" styles={"width: 2rem;"}>
                 <div className="card-body">
-                  <a href={"https://github.com/JCode2/weather-map"}><h5 className="card-title">Weather Map API</h5></a>
+                  <a href={"https://jcode2.github.io/weather-map/"} target="_blank"><h5 className="card-title">Weather Map API</h5></a>
                   <h6 className="card-subtitle mb-2 text-muted">Nov 2016 – Nov 2016</h6>
                   <p className="card-text">Weather map created using HTML, CSS,
                   Bootstrap, Javascript, jQuery, Google Maps API, and Open Weather Map API.
