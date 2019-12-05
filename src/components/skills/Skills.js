@@ -2,11 +2,33 @@ import React, {Component} from 'react';
 import WOW from 'wow.js';
 
 class Skills extends Component {
+
+  constructor(){
+    super();
+    this.state = {
+      frontEnd: ['HTML', 'CSS', 'Javascript', 'Bootstrap', 'jQuery', 'React', 'Enzyme', 'Angular'],
+      backEnd: ['Java', 'Java EE', 'Python', 'MySQL', 'Oracle', 'Spring', 'Thymeleaf', 'Cucumber', 'Selenium', 'TestNG', 'Mockito'],
+      softSkills:['Agile', 'Scrum', 'Kanban', 'Bitbucket', 'Git', 'SVN', 'Postman', 'VS Code', 'Eclipse', 'IntelliJ', 'Confluence', 'Jira']
+    }
+  }
+
   componentDidMount(){
     const wow = new WOW();
     wow.sync();
   }
   render(){
+    const frontEndSkills = this.state.frontEnd.map((skill) => {
+      return <li>{skill}</li>
+    })
+
+    const backEndSkills = this.state.frontEnd.map((skill) => {
+      return <li>{skill}</li>
+    })
+
+    const softSkills = this.state.frontEnd.map((skill) => {
+      return <li>{skill}</li>
+    })
+
     return(
       <div id="skills-section">
         <div className="row">
@@ -20,19 +42,19 @@ class Skills extends Component {
                 <div className="col-md-6 col-sm-12 wow fadeIn">
                   <hr/>
                   <h3>Front-End <i class="fas fa-code"></i></h3>
-                  <h5><li>HTML</li> <li>CSS</li> <li>Javascript</li> <li>Bootstrap</li> <li>jQuery</li> <li>React</li> <li>Enzyme</li></h5>
+                  <h5>{frontEndSkills}</h5>
                 </div>
                 <div className="col-md-6 col-sm-12 wow fadeIn">
                   <hr/>
                   <h3>Back-End <i class="fas fa-server"></i></h3>
-                  <h5><li>Java</li> <li>Java EE</li> <li>MySQL</li> <li>Oracle</li> <li>Spring</li><li>Thymeleaf</li> <li>Cache Objectscript (MUMPS)</li><li>Cucumber</li></h5>
+                  <h5>{backEndSkills}</h5>
                 </div>
         </div>
         <div className="row">
                 <div className="col-md-6 col-sm-12 wow fadeIn">
                   <hr/>
                   <h3>Soft Skills & Tools <i class="fas fa-code-branch"></i></h3>
-                  <h5><li>Agile</li> <li>Bitbucket</li> <li>Git</li> <li>Confluence</li><li>JIRA</li> <li>Scrum</li><li>Kanban</li></h5>
+                  <h5>{softSkills}</h5>
                 </div>
         </div>
       </div>

@@ -9,14 +9,14 @@ class Footer extends Component {
 
 
               <div className='col-md-6 col-sm-12 contactform'>
-              <h4>CONTACT ME</h4>
-              <p>PHONE</p>
-              <h2>(650) 534-2840</h2>
+              <h2>CONTACT</h2>
+              {/*<p>PHONE</p>*/}
+              <p>(650) 534-2840</p>
               <a href={"https://bit.ly/2oAVDxz"}><i class="fab fa-linkedin-in fa-3x"></i></a>
               &nbsp;
               &nbsp;
               &nbsp;
-              <a href={"https://github.com/JCode2"}><i class="fab fa-github fa-3x"></i></a>
+              <a href={"https://github.com/joshuafierro"}><i class="fab fa-github fa-3x"></i></a>
               <p className="copyright">&#169; {new Date().getFullYear()}</p>
               </div>
               <div className='col-md-6 col-sm-12'>

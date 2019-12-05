@@ -6,7 +6,7 @@ class ContactForm extends Component{
 
        <form id="contact" class="col-md-8 col-sm-12 form-group" action="https://www.elformo.com/forms/71fbfd3b-dc02-4c45-bc92-e49ca7e2d9cb" method="post" accept-charset="UTF-8">
         {/*<h1>Get in touch</h1>*/}
-        <p>GET IN TOUCH</p>
+        <h2>GET IN TOUCH</h2>
         <input class="form-control" id="name" name="name" placeholder="Name" type="text" required/>
         <input class="form-control" id="email" name="email" type="email" placeholder="Email" required/>
 

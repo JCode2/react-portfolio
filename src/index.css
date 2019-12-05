@@ -23,8 +23,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
   list-style: none;
   /* background-image: url('funky-lines.png'); */
+}
+
+#about-section p, h3{
+  font-size: 1.25rem;
 }
 
 .navbar{
@@ -99,9 +104,17 @@ body {
   margin: 2%;
 }
 
+#projects-section p{
+  font-size: 1rem;
+}
+
 .contactform{
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.contactform p{
+  font-size: 1.25rem;
 }
 
 .contact-button{

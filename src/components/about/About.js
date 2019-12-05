@@ -14,19 +14,23 @@ class About extends Component {
 
             <h2>ABOUT ME</h2>
             <hr/>
+            <div className="col-md-12 col-sm-12">
             <p>
-            Currently I am a software engineer programming mainly in Java using the Spring framwork
-            and Intersystems Cache Objectscript with experience working in both an Agile Scrum
+            Currently I am a software engineer programming mainly in Java
+            and React.js with experience working in both an Agile Scrum
             and Kanban environment for one of the largest financial companies in the world.
-            I also have experience in tech on the business end when I worked for a
-            start up based out of Central Texas.
+            I also have experience in tech on the business side when I worked for a version control
+            start up based out of Texas.
             </p>
+            </div>
+            <div className="col-md-12 col-sm-12">
             <p>
             I truly enjoy being given the opportunity to learn and explore new
             skills and technologies. This along with solving challenging and
             interesting problems from a technology perspective is what fuels my
             passion for software development.
             </p>
+            </div>
 
           </div>
 
