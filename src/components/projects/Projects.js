@@ -35,6 +35,13 @@ class Projects extends Component{
           date: 'Jun 2018 - Jun 2018',
           description: "Created a Full Stack website with CRUD functionality using React.js, Node.js, Yarn, MySQL, HTML, CSS, and Bootstrap.",
           id: 4, 
+        },
+        {
+          title: 'Spotify Dashboard',
+          link:  "https://github.com/joshuafierro/spotify-live-dashboard",
+          date: 'Dec 2018 - Dec 2019',
+          description: "Created a dashboard to show users their top artists and tracks using the Spotify API.",
+          id: 5, 
         }
       ]
     }
