@@ -49,7 +49,6 @@ class Projects extends Component{
   render(){
 
     const project = this.state.projects.map((project) => {
-      console.log(project.title);
       return(
         <div className="col-md-6 col-sm-12 wow fadeInLeft">
           <div className="card">
