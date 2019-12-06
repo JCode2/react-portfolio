@@ -12,11 +12,11 @@ class Footer extends Component {
               <h2>CONTACT</h2>
               {/*<p>PHONE</p>*/}
               <p>(650) 534-2840</p>
-              <a href={"https://bit.ly/2oAVDxz"}><i class="fab fa-linkedin-in fa-3x"></i></a>
+              <a href={"https://bit.ly/2oAVDxz"}><i className="fab fa-linkedin-in fa-3x"></i></a>
               &nbsp;
               &nbsp;
               &nbsp;
-              <a href={"https://github.com/joshuafierro"}><i class="fab fa-github fa-3x"></i></a>
+              <a href={"https://github.com/joshuafierro"}><i className="fab fa-github fa-3x"></i></a>
               <p className="copyright">&#169; {new Date().getFullYear()}</p>
               </div>
               <div className='col-md-6 col-sm-12'>
