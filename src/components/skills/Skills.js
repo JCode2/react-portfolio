@@ -9,7 +9,7 @@ class Skills extends Component {
       frontEnd: ['HTML', 'CSS', 'Javascript', 'Bootstrap', 'jQuery', 'React', 'Enzyme', 'Angular'],
       backEnd: ['Java/Java EE', 'Python', 'SQL', 'Spring', 'Thymeleaf', 'Cucumber', 'Selenium', 'TestNG', 'Mockito'],
       dataScience: ['Machine Learning', 'Pandas', 'Numpy', 'Seaborn', 'Data Munging', 'Data Analysis', 'Data Visualization'],
-      softSkills:['Agile', 'Git', 'SVN', 'Postman', 'VS Code', 'Eclipse', 'IntelliJ', , 'Jupytr Notebook', 'Confluence/Jira']
+      softSkills:['Agile', 'Git', 'SVN', 'Postman', 'VS Code', 'Eclipse', 'IntelliJ', 'Jupytr Notebook', 'Confluence/Jira']
     }
   }
 
@@ -43,8 +43,6 @@ class Skills extends Component {
                 </div>
         </div>
         <div className="row">
-
-        {/*Should put these in cards instead */}
                 <div className="col-md-6 col-sm-12 wow fadeIn">
                   <div className="card">
                     <div className="card-body">
