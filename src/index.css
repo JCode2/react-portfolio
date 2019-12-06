@@ -108,6 +108,11 @@ body {
   font-size: 1rem;
 }
 
+.card{
+  margin-bottom: 5%;
+  /* width: 2rem; */
+}
+
 .contactform{
   padding-left: 5%;
   padding-right: 5%;

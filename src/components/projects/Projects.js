@@ -52,14 +52,14 @@ class Projects extends Component{
       console.log(project.title);
       return(
         <div className="col-md-6 col-sm-12 wow fadeInLeft">
-      <div className="card" styles={"width: 2rem;"}>
-      <div className="card-body">
-        <a href={project.link} target="_blank"><h5 className="card-title">{project.title}</h5></a>
-        <h6 className="card-subtitle mb-2 text-muted">{project.date}</h6>
-        <p className="card-text">{project.description}
-        </p>
-      </div>
-    </div>
+          <div className="card">
+            <div className="card-body">
+              <a href={project.link} target="_blank"><h5 className="card-title">{project.title}</h5></a>
+              <h6 className="card-subtitle mb-2 text-muted">{project.date}</h6>
+              <p className="card-text">{project.description}
+              </p>
+            </div>
+          </div>
     </div>
     );
     })
