@@ -7,8 +7,9 @@ class Skills extends Component {
     super();
     this.state = {
       frontEnd: ['HTML', 'CSS', 'Javascript', 'Bootstrap', 'jQuery', 'React', 'Enzyme', 'Angular'],
-      backEnd: ['Java', 'Java EE', 'Python', 'MySQL', 'Oracle', 'Spring', 'Thymeleaf', 'Cucumber', 'Selenium', 'TestNG', 'Mockito'],
-      softSkills:['Agile', 'Scrum', 'Kanban', 'Bitbucket', 'Git', 'SVN', 'Postman', 'VS Code', 'Eclipse', 'IntelliJ', 'Confluence', 'Jira']
+      backEnd: ['Java/Java EE', 'Python', 'SQL', 'Spring', 'Thymeleaf', 'Cucumber', 'Selenium', 'TestNG', 'Mockito'],
+      dataScience: ['Machine Learning', 'Pandas', 'Numpy', 'Seaborn', 'Data Munging', 'Data Analysis', 'Data Visualization'],
+      softSkills:['Agile', 'Git', 'SVN', 'Postman', 'VS Code', 'Eclipse', 'IntelliJ', , 'Jupytr Notebook', 'Confluence/Jira']
     }
   }
 
@@ -21,12 +22,16 @@ class Skills extends Component {
       return <li>{skill}</li>
     })
 
-    const backEndSkills = this.state.frontEnd.map((skill) => {
+    const backEndSkills = this.state.backEnd.map((skill) => {
       return <li>{skill}</li>
     })
 
-    const softSkills = this.state.frontEnd.map((skill) => {
+    const softSkills = this.state.softSkills.map((skill) => {
       return <li>{skill}</li>
+    })
+
+    const dataScience = this.state.dataScience.map((ds) => {
+      return <li>{ds}</li>
     })
 
     return(
@@ -63,6 +68,14 @@ class Skills extends Component {
                     <div className="card-body">
                       <h3>Soft Skills & Tools 👨🏻‍💻</h3>
                       <p>{softSkills}</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 col-sm-12 wow fadeIn">
+                  <div className="card">
+                    <div className="card-body">
+                      <h3>Data Science 🧮🧪</h3>
+                      <p>{dataScience}</p>
                     </div>
                   </div>
                 </div>
