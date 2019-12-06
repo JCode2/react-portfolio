@@ -34,27 +34,37 @@ class Skills extends Component {
         <div className="row">
                 <div className="col-md-12 col-sm-12">
                   <h2>WHAT I DO</h2>
+                  <hr/>
                 </div>
         </div>
         <div className="row">
 
         {/*Should put these in cards instead */}
                 <div className="col-md-6 col-sm-12 wow fadeIn">
-                  <hr/>
-                  <h3>Front-End <i className="fas fa-code"></i></h3>
-                  <h5>{frontEndSkills}</h5>
+                  <div className="card">
+                    <div className="card-body">
+                      <h3>Front-End 👾</h3>
+                      <p>{frontEndSkills}</p>
+                    </div>
+                  </div>
                 </div>
                 <div className="col-md-6 col-sm-12 wow fadeIn">
-                  <hr/>
-                  <h3>Back-End <i className="fas fa-server"></i></h3>
-                  <h5>{backEndSkills}</h5>
+                  <div className="card">
+                    <div className="card-body">
+                      <h3>Back-End ☕️</h3>
+                      <p>{backEndSkills}</p>
+                    </div>
+                  </div>
                 </div>
         </div>
         <div className="row">
                 <div className="col-md-6 col-sm-12 wow fadeIn">
-                  <hr/>
-                  <h3>Soft Skills & Tools <i className="fas fa-code-branch"></i></h3>
-                  <h5>{softSkills}</h5>
+                  <div className="card">
+                    <div className="card-body">
+                      <h3>Soft Skills & Tools 👨🏻‍💻</h3>
+                      <p>{softSkills}</p>
+                    </div>
+                  </div>
                 </div>
         </div>
       </div>
