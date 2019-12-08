@@ -7,6 +7,8 @@
     }
     .contactform{
       margin-top: 5%;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
 }
 
@@ -26,6 +28,15 @@ body {
   font-size: 15px;
   list-style: none;
   /* background-image: url('funky-lines.png'); */
+  background-color: #f5f5f5;
+}
+
+h1 {
+  color: #f5f5f5;
+}
+
+h3{
+  color: rgba(51, 102, 153);
 }
 
 #about-section p, h3{
@@ -33,17 +44,18 @@ body {
 }
 
 .navbar{
-  /* background-color: whitesmoke/*rgba(0, 173, 255, 1)*/;
-  background: linear-gradient(to right, rgb(170, 255, 169), rgb(17, 255, 189));
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 0.5%;
 }
 
-.navbar >a{
-  color:#343a40 !important;
+.navbar a{
+  color:#f5f5f5 !important;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color:#343a40 !important;
+.navbar-light .navbar-nav .nav-link .navbar-brand {
+  color:#f5f5f5 !important;
 }
 
 .navbar-collapse{
@@ -51,16 +63,23 @@ body {
   padding: 0.5%;
 }
 
+.navbar-brand{
+  display: flex;
+  align-content: flex-start;
+}
+
 .Jumbotron-fluid{
-  /* background-image: url('https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
-  background: linear-gradient(to right, rgb(170, 255, 169), rgb(17, 255, 189));
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   background-position: center;
   background-repeat: no-repeat;
   transform: skewY(-8deg);
   transform-origin: top left;
   height: 100vh;
   background-size: cover;
-  color:whitesmoke;
+  color:#303030;
 }
 
 .display-2{
@@ -72,7 +91,7 @@ body {
 }
 
 #about-section{
-  background-color: white;
+  background-color: #f5f5f5;
   padding: 2%;
   margin: 2%;
   font-size: 1.15rem;
@@ -85,6 +104,12 @@ body {
 .profile-img{
   width: 25%;
   border-radius: 2%;
+  background-color: transparent;
+  transition: width .75s;
+}
+
+.profile-img:hover{
+  width:35%;
 }
 
 .row{
@@ -93,13 +118,13 @@ body {
 }
 
 #skills-section{
-  background-color: white;
+  background-color: #f5f5f5;
   padding: 2%;
   margin: 2%;
 }
 
 #projects-section{
-  background-color: white;
+  background-color: #f5f5f5;
   padding: 2%;
   margin: 2%;
 }
@@ -114,8 +139,8 @@ body {
 }
 
 .contactform{
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .contactform p{
@@ -139,8 +164,14 @@ footer{
   height: 100vh;
 }
 
-.fa-github, .fa-linkedin-in{
-  color: #343a40 /*white*/;
+.footer a{
+  border-radius: 50%;
+  padding:1%;
+}
+
+.socialinks{
+  display: flex;
+  justify-content: center;
 }
 
 .fa-certificate{
@@ -149,4 +180,12 @@ footer{
 
 .footerList{
       list-style-type: none;
+}
+
+.footnote{
+  font-size: 10pt;
+}
+
+::placeholder{
+  font-size: 20px;
 }

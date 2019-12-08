@@ -37,15 +37,15 @@ class About extends Component {
           <div className="col-md-6 col-sm-12">
           <h2>Education and Training</h2>
           <hr/>
-          <h3><i className="fas fa-certificate"></i> Bachelors of Science</h3>
-          <h3><i className="fas fa-certificate"></i> Software Engineer Bootcamp</h3>
-          <h3><i className="fas fa-certificate"></i> Corporate Training in React Redux</h3>
+          <h3 style={{color:'black'}}><i className="fas fa-certificate"></i> Bachelors of Science</h3>
+          <h3 style={{color:'black'}}><i className="fas fa-certificate"></i> Software Engineer Bootcamp</h3>
+          <h3 style={{color:'black'}}><i className="fas fa-certificate"></i> Corporate Training in React Redux</h3>
           </div>
 
           <div className="col-md-6 col-sm-12 wow fadeInUp">
-          <img className="profile-img" src={'https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/64/s300/codeup-logo.png'} alt=""/>
-          <img className="profile-img" src={'https://pbs.twimg.com/profile_images/601081984534863873/MRiPrI0x_400x400.png'} alt=""/>
-          <img className="profile-img" src={'https://yt3.ggpht.com/a-/ACSszfHMpLR3AuqdQgZY5OZY5NrJ1rdBT_NOqvqm4w=s900-mo-c-c0xffffffff-rj-k-no'} alt=""/>
+          <img className="profile-img" src={'https://upload.wikimedia.org/wikipedia/commons/5/51/Utsalogo1.png'} alt="UTSA"/>
+          <img className="profile-img" src={'https://wearetribu.com/wp-content/uploads/2019/01/codeup-duck-min.png'} alt=""/>
+          <img className="profile-img" src={'https://cdn-images-1.medium.com/max/1200/1*DhnMT5cYCZoatAPOPFP7cA.png'} alt="Object Partners"/>
           </div>
 
       </div>

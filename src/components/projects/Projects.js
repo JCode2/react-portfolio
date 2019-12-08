@@ -57,7 +57,7 @@ class Projects extends Component{
 
     const project = this.state.projects.map((project) => {
       return(
-        <div key={project.id} className="col-md-6 col-sm-12 wow fadeInLeft">
+        <div key={project.id} className="col-md-6 col-sm-12 wow fadeInUp">
           <div className="card">
             <div className="card-body">
               <a href={project.link} target="_blank"><h5 className="card-title">{project.title}</h5></a>
@@ -84,6 +84,7 @@ class Projects extends Component{
     return(
       <div className="row" id="projects-section">
         <h2>PORTFOLIO</h2>
+        <hr/>
     <div className="row">
             {project}
     </div>

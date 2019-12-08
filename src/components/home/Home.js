@@ -11,7 +11,7 @@ render(){
     <div id="scrollToTop">
     <Nav/>
       <div className='Jumbotron-fluid'>
-        <h3 className="display-2 animated zoomInDown">F I E R R O</h3>
+        <h1 className="display-2 animated zoomInDown">F I E R R O</h1>
       </div>
       <div className="container">
           <About/>
